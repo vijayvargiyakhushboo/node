@@ -8,6 +8,8 @@ const server = http.createServer((req, res) => {
   res.setHeader('Content-Type', 'text/plain');
   res.end('Hello World\n');
 });
+var addition = require('./addition.js');
+console.log("2 number addition is: "+addition.AddNumber(1,10));
 
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
