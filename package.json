@@ -1,0 +1,23 @@
+{
+  "name": "my-node",
+  "version": "1.0.0",
+  "description": "my node js learning stage",
+  "main": "main.js",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node\u001b[C"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijayvargiyakhushboo/node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vijayvargiyakhushboo/node/issues"
+  },
+  "homepage": "https://github.com/vijayvargiyakhushboo/node#readme"
+}
